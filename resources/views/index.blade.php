@@ -37,20 +37,21 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Marketing Material</a></li>
-            <li><a href="#" data-filter=".web">Packaging</a></li>
-            <li><a href="#" data-filter=".photography">Office and Stationery</a></li>
-            <li><a href="#" data-filter=".product">Clothing</a></li>
-            <li><a href="#" data-filter=".product">Promotional Gift</a></li>
+            <li><a href="#" data-filter=".mm">Marketing Material</a></li>
+            <li><a href="#" data-filter=".packaging">Packaging</a></li>
+            <li><a href="#" data-filter=".os">Office and Stationery</a></li>
+            <li><a href="#" data-filter=".cloth">Clothing</a></li>
+            <li><a href="#" data-filter=".pg">Promotional Gift</a></li>
           </ol>
         </li>
       </ul>
       <div class="clearfix"></div>
     </div>
 
+    <!-- bussiness card -->
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
+        <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -59,11 +60,13 @@
               <img src="image/portfolio/bussiness card.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
+        <!-- brosur -->
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>brosure</h4>
               </div>
               <img src="image/portfolio/brosur.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>

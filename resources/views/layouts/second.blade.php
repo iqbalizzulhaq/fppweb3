@@ -21,7 +21,7 @@
 
 <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css"  href="css/style2.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
@@ -30,13 +30,19 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-@include('pages.header')
 
-@include('pages.navbar')
-
-@yield('content')
-
-@include('pages.footer')
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <h1>e-PRINT</h1>
+          @yield('content')
+      </div>
+    </div>
+  </div>
+</header>
 
 @section('script')
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
