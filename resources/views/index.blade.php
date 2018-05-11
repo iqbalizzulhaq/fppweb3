@@ -62,7 +62,7 @@
         </div>
 
         <!-- brosur -->
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
+        <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -71,6 +71,7 @@
               <img src="image/portfolio/brosur.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
