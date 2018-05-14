@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/login','HomeController@login');
+
+Route::get('/pembelian', function () {
+    return view('layouts.pembelian');
+});
+
+Route::get('/bussiness_card', function () {
+    return view('pages.bussiness_card');
+});

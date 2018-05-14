@@ -35,4 +35,9 @@ class HomeController extends Controller
     {
         return view('register');
     }
+
+    public function pembelian()
+    {
+        return view('layouts.pembelian');
+    }
 }

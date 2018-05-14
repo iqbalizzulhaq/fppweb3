@@ -38,9 +38,7 @@
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
             <li><a href="#" data-filter=".mm">Marketing Material</a></li>
-            <li><a href="#" data-filter=".packaging">Packaging</a></li>
             <li><a href="#" data-filter=".os">Office and Stationery</a></li>
-            <li><a href="#" data-filter=".cloth">Clothing</a></li>
             <li><a href="#" data-filter=".pg">Promotional Gift</a></li>
           </ol>
         </li>
@@ -53,11 +51,32 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="bussiness_card" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Bussiness Card</h4>
               </div>
               <img src="image/portfolio/bussiness card.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+        <!-- poster -->
+        <div class="col-sm-6 col-md-3 col-lg-3 mm">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="image/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+              </div>
+              <img src="image/portfolio/poster.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 os">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="image/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+              </div>
+              <img src="image/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
@@ -72,25 +91,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="image/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="image/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 product">
+        <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -99,6 +100,7 @@
               <img src="image/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 photography">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
@@ -108,6 +110,7 @@
               <img src="image/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 photography">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
@@ -117,6 +120,7 @@
               <img src="image/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
@@ -126,6 +130,7 @@
               <img src="image/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 product">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
@@ -135,6 +140,7 @@
               <img src="image/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 photography">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/10-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
@@ -144,7 +150,8 @@
               <img src="image/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
+
+        <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/11-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -153,6 +160,7 @@
               <img src="image/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/12-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
@@ -162,6 +170,7 @@
               <img src="image/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
