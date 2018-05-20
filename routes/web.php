@@ -24,5 +24,5 @@ Route::get('/pembelian', function () {
 });
 
 Route::get('/bussiness_card', function () {
-    return view('pages.bussiness_card');
+    return view('items.bussiness_card');
 });
