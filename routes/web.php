@@ -38,3 +38,32 @@ Route::get('/stempel', function () {
 Route::get('/amplop', function () {
     return view('items.amplop');
 });
+
+
+Route::get('/stiker', function () {
+    return view('items.stiker');
+});
+Route::get('/pin', function () {
+    return view('items.pin');
+});
+
+Route::get('/tumbler', function () {
+    return view('items.tumbler');
+});
+
+Route::get('/mug', function () {
+    return view('items.mug');
+});
+
+Route::get('/idcard', function () {
+    return view('items.idcard');
+
+});
+
+Route::get('/banner', function () {
+    return view('items.banner');
+});
+
+Route::get('/calender', function () {
+    return view('items.calender');
+});

@@ -118,7 +118,7 @@
         <!-- banner -->
         <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="banner" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Banner</h4>
               </div>
@@ -129,7 +129,7 @@
         <!-- id card -->
         <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="idcard" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>ID card</h4>
               </div>
@@ -140,7 +140,7 @@
         <!-- tumbler -->
         <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="tumbler" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Tumbler</h4>
               </div>
@@ -151,7 +151,7 @@
        <!--  mug -->
         <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/10-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="mug" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>mug </h4>
               </div>
@@ -162,7 +162,7 @@
         <!-- stiker -->
         <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/11-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="stiker" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Stiker</h4>
               </div>
@@ -173,7 +173,7 @@
         <!-- pin -->
         <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/12-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="pin" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Pin</h4>
               </div>
