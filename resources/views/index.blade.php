@@ -65,21 +65,13 @@
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Poster</h4>
               </div>
               <img src="image/portfolio/poster.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 os">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="image/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
+
 
         <!-- brosur -->
         <div class="col-sm-6 col-md-3 col-lg-3 mm">
@@ -92,83 +84,103 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 mm">
+       <!--  stempel -->
+        <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Stempel</h4>
               </div>
-              <img src="image/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/stempel.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
+        <!-- amplop -->
+        <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Amplop</h4>
               </div>
-              <img src="image/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/amplop.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
+        <!-- calender -->
+        <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>calender</h4>
               </div>
-              <img src="image/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/calender.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
+
+        <!-- banner -->
+        <div class="col-sm-6 col-md-3 col-lg-3 mm">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="image/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Banner</h4>
+              </div>
+              <img src="image/portfolio/Banner.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        
+        <!-- id card -->
+        <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>ID card</h4>
               </div>
-              <img src="image/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/idcard.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 product">
+        <!-- tumbler -->
+        <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Tumbler</h4>
               </div>
-              <img src="image/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/tumbler.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
+       <!--  mug -->
+        <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/10-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>mug </h4>
               </div>
-              <img src="image/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/mug.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 os">
+        <!-- stiker -->
+        <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/11-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Stiker</h4>
               </div>
-              <img src="image/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/stiker.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
+        <!-- pin -->
+        <div class="col-sm-6 col-md-3 col-lg-3 pg">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="image/portfolio/12-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Pin</h4>
               </div>
-              <img src="image/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="image/portfolio/pin.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
 
