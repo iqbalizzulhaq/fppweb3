@@ -17,9 +17,10 @@
       <div class="col-xs-12 col-md-6"> <img src="image/about1.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Portfolio</a> </div>
+          <p>e-print adalah suatu web yang bertujuan unuk memudahkan konsumen dalam hal percetakan dan perfotokopian 
+          dengan adanya web ini konsumen tidak usah lagi untuk datang ke tempat kami untuk mengorder tetapi hanya cukup membuka nya lewat gadget konsumen</p>
+          <p>web ini memiliki bayak fitur , termasuk jasa yang kami sediakan seperti cetak brosur , kartu nama ,dan print biasa .</p>
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Katalog</a> </div>
       </div>
     </div>
   </div>
@@ -29,7 +30,7 @@
 <div id="portfolio">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>Portfolio</h2>
+      <h2>Katalog</h2>
       <hr>
     </div>
     <div class="categories">
