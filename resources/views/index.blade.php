@@ -63,7 +63,7 @@
         <!-- poster -->
         <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="poster" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Poster</h4>
               </div>
@@ -71,12 +71,10 @@
           </div>
         </div>
 
-
-
         <!-- brosur -->
         <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="brosur" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>brosure</h4>
               </div>
@@ -87,7 +85,7 @@
        <!--  stempel -->
         <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="stempel" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Stempel</h4>
               </div>
@@ -98,7 +96,7 @@
         <!-- amplop -->
         <div class="col-sm-6 col-md-3 col-lg-3 mm">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="amplop" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Amplop</h4>
               </div>
@@ -109,14 +107,13 @@
         <!-- calender -->
         <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="image/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="calender" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>calender</h4>
               </div>
               <img src="image/portfolio/calender.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-
 
         <!-- banner -->
         <div class="col-sm-6 col-md-3 col-lg-3 mm">

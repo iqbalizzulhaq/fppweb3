@@ -26,3 +26,15 @@ Route::get('/pembelian', function () {
 Route::get('/bussiness_card', function () {
     return view('items.bussiness_card');
 });
+Route::get('/poster', function () {
+    return view('items.poster');
+});
+Route::get('/brosur', function () {
+    return view('items.brosur');
+});
+Route::get('/stempel', function () {
+    return view('items.stempel');
+});
+Route::get('/amplop', function () {
+    return view('items.amplop');
+});
