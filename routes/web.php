@@ -67,3 +67,7 @@ Route::get('/banner', function () {
 Route::get('/calender', function () {
     return view('items.calender');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

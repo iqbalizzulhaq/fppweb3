@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('styles')
-@parent
+
 @section('script')
-@parent
+
 
 @section('content')
 <!-- About Section -->
