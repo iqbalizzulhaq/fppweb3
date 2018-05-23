@@ -2,10 +2,27 @@
 
 @section('content')
 
+<head>
+    <style type="text/css">
+        .button {
+    background-color:  #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
 <div class="section-title text-center center">
       <h2>bussiness card</h2>
       <hr>
-
+      e-print menghadirkan solusi cetak online kartu nama dengan kualitas terbaik dan harga yang ekonomis
     </div>
 
 <table class="table table-bordered table-hover table-light table-striped">
@@ -41,13 +58,7 @@
     </tr>
 </table>
 <br>
-<h3> FORM PENJUALAN </h3>
-<br>
-<form action="#" method="post">
-<input type="text" placeholder="type kertas" class="col-md-6"> <br> <br>
-<input type="radio" name="gender" value="female"> Single Side<br>
-<input type="radio" name="gender" value="other"> Double Side<br><br>
-</form>
 
-
+<button class="button">Buat sekarang</button>
+</body>
 @endsection
