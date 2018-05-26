@@ -41,5 +41,19 @@
     </tr>
     </tr>
 </table>
+<<<<<<< HEAD
 <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+=======
+<br>
+<center>
+<h3> FORM PENJUALAN </h3>
+<br>
+<form action="#" method="post">
+<input type="text" placeholder="type kertas" class="col-md-8"> <br>
+<input type="text" placeholder="ukuran kertas" class="col-md-8"> <br>
+<input type="text" placeholder="design gambar" class="col-md-8"> <br>
+</form>
+
+</center>
+>>>>>>> master
 @endsection

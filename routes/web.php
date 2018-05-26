@@ -68,6 +68,10 @@ Route::get('/calender', function () {
     return view('items.calender');
 });
 
+Route::get('/form_pembelian', function () {
+    return view('form_pembelian');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

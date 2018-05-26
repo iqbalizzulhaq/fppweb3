@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="section-title text-center center">
-      <h2>Pin/h2>
+      <h2>Pin</h2>
       <hr>
 
     </div>
