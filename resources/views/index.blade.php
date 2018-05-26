@@ -129,7 +129,7 @@
         <!-- id card -->
         <div class="col-sm-6 col-md-3 col-lg-3 os">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="idcard" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="id_card" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>ID card</h4>
               </div>
