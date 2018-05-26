@@ -59,6 +59,7 @@
 </table>
 <br>
 
-<button class="button">Buat sekarang</button>
+<button class="button"><a href="form_pembelian">Buat sekarang</button>
+<a href="form_pembelian">
 </body>
 @endsection
