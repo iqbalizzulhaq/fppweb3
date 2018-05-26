@@ -2,23 +2,6 @@
 
 @section('content')
 
-<head>
-    <style type="text/css">
-        .button {
-    background-color:  #008CBA; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-    </style>
-</head>
-<body>
 <div class="section-title text-center center">
       <h2>bussiness card</h2>
       <hr>
@@ -59,6 +42,6 @@
 </table>
 <br>
 
-<button class="button">Buat sekarang</button>
-</body>
+<a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+
 @endsection

@@ -55,8 +55,8 @@ Route::get('/mug', function () {
     return view('items.mug');
 });
 
-Route::get('/idcard', function () {
-    return view('items.idcard');
+Route::get('/id_card', function () {
+    return view('items.id_card');
 
 });
 

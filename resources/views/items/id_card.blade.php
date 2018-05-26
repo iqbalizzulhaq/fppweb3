@@ -5,50 +5,36 @@
 <div class="section-title text-center center">
       <h2>ID CARD</h2>
       <hr>
+      Desain ID card yang professional dapat meningkatkan kredibilitas bisnis
+
+</div>
+<br>
+<br>
+<br>
+
+<div class="section-title text-center center">
+      <h2>Daftar harga</h2>
+      <hr>
+     E-print menghadirkan solusi cetak online ID Card dengan kualitas terbaik dan harga yang ekonomis
 
     </div>
-
 <table class="table table-bordered table-hover table-light table-striped">
     <tr>
         <td>quantity</td>
-        <td>standart</td>
-        <td>premium</td>
-        <td>lux</td>
+        <td>White PVC</td>
+        
     </tr>
     <tr>
-        <td>1 box</td>
-        <td>3000</td>
-        <td>4000</td>
-        <td>5000</td>
-    </tr>
+        <td>1-9 box</td>
+        <td>Rp. 150.150 /box</td>
+        
     <tr>
-        <td>5 box</td>
-        <td>12000</td>
-        <td>17000</td>
-        <td>23000</td>
-    </tr>
-    <tr>
-        <td>11 box</td>
-        <td>24000</td>
-        <td>34000</td>
-        <td>46000</td>
-        <tr>
-        <td>21 box</td>
-        <td>48000</td>
-        <td>68000</td>
-        <td>90000</td>
-    </tr>
+        <td> >9 box</td>
+        <td>Rp. 95.150 /box</td>
+        
     </tr>
 </table>
-<br>
-<center>
-<h3> FORM PENJUALAN </h3>
-<br>
-<form action="#" method="post">
-<input type="text" placeholder="type kertas" class="col-md-12"> <br> <br>
-<input type="radio" name="gender" value="female"> Single Side<br>
-<input type="radio" name="gender" value="other"> Double Side<br><br>
-</form>
+<b>Semakin banyak kuantitas, semakin murah harga</b>
+<a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
 
-</center>
 @endsection
