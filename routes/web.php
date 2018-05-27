@@ -72,6 +72,10 @@ Route::get('/form_pembelian', function () {
     return view('form_pembelian');
 });
 
+Route::get('/trolly', function () {
+    return view('trolly');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

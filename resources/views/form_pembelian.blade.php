@@ -31,10 +31,9 @@
   <!-- progressbar -->
   <ul id="progressbar">
     <li class="active">Item Setup</li>
-	<li>Personal Details</li>
-    <li>Your trolly</li>
-	<li>Payment</li>
-    
+	  <li>Personal Details</li>
+    <li>Payment</li>
+    <li>Your trolly</li> 
   </ul>
   <!-- fieldsets -->
   <fieldset>
@@ -59,15 +58,7 @@
     <input type="button" name="previous" class="previous action-button" value="Previous" />
 	<input type="button" name="next" class="next action-button" value="Next" />
   </fieldset>
-  
-  <fieldset>
-    <h2 class="fs-title">Your Trolly</h2>
-    <h3 class="fs-subtitle">your item in here</h3>
-    
-    
-    <input type="button" name="next" class="next action-button" value="Confirm" />
-  </fieldset>
-  
+
   <fieldset>
     <h2 class="fs-title">Pembayaran</h2>
     <h3 class="fs-subtitle">lakukan pembayaran</h3>
@@ -86,11 +77,19 @@
     <input type="text" name="total" placeholder="Total Pembayaran"/>
     <input type="button" name="previous" class="previous action-button" value="Previous" />
     
-	<input type="submit" name="submit" class="submit action-button" value="Submit" />
+
+    
+    <a href="trolly" class="btn btn-default">Your Trolly</a>
+    
+    
   </fieldset>
-  
+
   
 </form>
+  
+  
+  
+
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
 <script  src="js/formjs.js"></script>
