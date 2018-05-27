@@ -212,45 +212,34 @@
 
 <div id="pricing-table" class="clear">
     <div class="plan">
-        <h3>Laster Photo Paper<span>10.000</span></h3>
+        <h3>Laster Photo Paper<span>10k</span></h3>
         <a class="signup" href="">Buat</a>         
         <ul>
-            <li><b>10GB</b> Disk Space</li>
-            <li><b>100GB</b> Monthly Bandwidth</li>
-            <li><b>20</b> Email Accounts</li>
-			<li><b>Unlimited</b> subdomains</li>			
+            <li>awet puluhan tahun</li>
+			<li>efek doff</li>
+			<li>tidak mudah pudar</li>			
         </ul> 
     </div>
     <div class="plan" id="most-popular">
-        <h3>Professional<span>$29</span></h3>
-        <a class="signup" href="">Sign up</a>        
+        <h3>Art paper<span>8k</span></h3>
+        <a class="signup" href="">Buat</a>        
         <ul>
-            <li><b>5GB</b> Disk Space</li>
-            <li><b>50GB</b> Monthly Bandwidth</li>
-            <li><b>10</b> Email Accounts</li>
-			<li><b>Unlimited</b> subdomains</li>			
+            <li>First-grade quality paper</li>
+            <li>High whiteness with smooth finishing</li>
+            <li>mostly used for the high quality reproduction of artwork in brochures and art books</li>
+            		
         </ul>    
     </div>
     <div class="plan">
-        <h3>Standard<span>$17</span></h3>
+        <h3>Art cartoon<span>12k</span></h3>
 		<a class="signup" href="">Sign up</a>
         <ul>
-            <li><b>3GB</b> Disk Space</li>
-            <li><b>25GB</b> Monthly Bandwidth</li>
-            <li><b>5</b> Email Accounts</li>
-			<li><b>Unlimited</b> subdomains</li>			
+            <li>Generally smooth</li>
+            <li>Perfect to accentuate the sharpness and colors of complex images</li>
+            <li>The preferred choice for magazines, book covers, and glossy photos</li>
+    	
         </ul>
     </div>
-    <div class="plan">
-        <h3>Basic<span>$9</span></h3>
-        <a class="signup" href="">Sign up</a>		
-        <ul>
-            <li><b>1GB</b> Disk Space</li>
-            <li><b>10GB</b> Monthly Bandwidth</li>
-            <li><b>2</b> Email Accounts</li>
-			<li><b>Unlimited</b> subdomains</li>			
-        </ul>
-    </div> 	
-</div>
+    
 
 @endsection
