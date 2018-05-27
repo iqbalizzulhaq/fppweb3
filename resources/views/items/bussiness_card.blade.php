@@ -42,12 +42,5 @@
 </table>
 <br>
 
-<<<<<<< HEAD
-<a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
-
-=======
-<button class="button"><a href="form_pembelian">Buat sekarang</button>
-<a href="form_pembelian">
-</body>
->>>>>>> master
+<a href="form_pembelian" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> 
 @endsection
