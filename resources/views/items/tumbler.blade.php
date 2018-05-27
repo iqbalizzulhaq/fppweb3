@@ -40,15 +40,5 @@
     </tr>
     </tr>
 </table>
-<br>
-<center>
-<h3> FORM PENJUALAN </h3>
-<br>
-<form action="#" method="post">
-<input type="text" placeholder="type kertas" class="col-md-12"> <br> <br>
-<input type="radio" name="gender" value="female"> Single Side<br>
-<input type="radio" name="gender" value="other"> Double Side<br><br>
-</form>
 
-</center>
 @endsection

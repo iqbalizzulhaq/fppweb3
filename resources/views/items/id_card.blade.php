@@ -34,7 +34,7 @@
         
     </tr>
 </table>
-<b>Semakin banyak kuantitas, semakin murah harga</b>
+Semakin banyak kuantitas, semakin murah harga</br>
 <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
 
 @endsection
