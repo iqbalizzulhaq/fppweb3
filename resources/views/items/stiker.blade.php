@@ -2,53 +2,105 @@
 
 @section('content')
 
+<style type="text/css">
+.box{
+  width: 25%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 5%;
+  color: white;
+  float: left;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  float: center;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+
+
+</style>
+
 <div class="section-title text-center center">
       <h2>Stiker</h2>
       <hr>
+      Semakin rapi dan produktif dengan label & stiker Prinzio dalam berbagai ukuran, bentuk, dan fungsi.
+</div>
 
-    </div>
+<div class="box">
+  <img src="image/portfolio/stiker1.jpeg" alt="" class="box-img">
+  <h1>circle</h1>
+  
+</div>
+
+<div class="box">
+  <img src="image/portfolio/stiker2.jpeg" alt="" class="box-img">
+  <h1>Regtangle</h1>
+  
+</div>
+
+<div class="box">
+  <img src="image/portfolio/stiker3.jpeg" alt="" class="box-img">
+  <h1>Square</h1>
+</div>
+<a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a>
+
+<div class="section-title text-center center">
+      <h2>Daftar Harga</h2>
+      <hr>
+      E-print menghadirkan solusi cetak online sticker dengan kualitas terbaik dan harga yang ekonomis
+</div>
 
 <table class="table table-bordered table-hover table-light table-striped">
     <tr>
         <td>quantity</td>
-        <td>standart</td>
-        <td>premium</td>
-        <td>lux</td>
+        <td>Circle</td>
+        <td>Regtangle</td>
+        <td>Square</td>
     </tr>
     <tr>
-        <td>1 box</td>
-        <td>3000</td>
-        <td>4000</td>
-        <td>5000</td>
+        <td>50 pcs</td>
+        <td>Rp. 1.694 /pcs</td>
+        <td>Rp. 429 /pcs</td>
+        <td>Rp. 154 /pcs0</td>
     </tr>
     <tr>
-        <td>5 box</td>
-        <td>12000</td>
-        <td>17000</td>
-        <td>23000</td>
+        <td>100 pcs</td>
+        <td>Rp. 924 /pcs</td>
+        <td>Rp. 286 /pcs</td>
+        <td>Rp. 149 /pcs</td>
     </tr>
     <tr>
-        <td>11 box</td>
-        <td>24000</td>
-        <td>34000</td>
-        <td>46000</td>
+        <td>200 pcs</td>
+        <td>Rp. 462 /pcs</td>
+        <td>Rp. 238 /pcs</td>
+        <td>Rp. 143 /pcs</td>
         <tr>
-        <td>21 box</td>
-        <td>48000</td>
-        <td>68000</td>
-        <td>90000</td>
+        <td>500 pcs</td>
+        <td>Rp. 429 /pcs</td>
+        <td>Rp. 229 /pcs</td>
+        <td>Rp. 141 /pcs</td>
     </tr>
     </tr>
 </table>
 <br>
-<center>
-<h3> FORM PENJUALAN </h3>
-<br>
-<form action="#" method="post">
-<input type="text" placeholder="type kertas" class="col-md-12"> <br> <br>
-<input type="radio" name="gender" value="female"> Single Side<br>
-<input type="radio" name="gender" value="other"> Double Side<br><br>
-</form>
+<i>* Tabel harga sticker bahan chromo</i>
 
-</center>
+
 @endsection

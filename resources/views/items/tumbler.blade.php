@@ -8,37 +8,17 @@
 
     </div>
 
-<table class="table table-bordered table-hover table-light table-striped">
-    <tr>
-        <td>quantity</td>
-        <td>standart</td>
-        <td>premium</td>
-        <td>lux</td>
-    </tr>
-    <tr>
-        <td>1 box</td>
-        <td>3000</td>
-        <td>4000</td>
-        <td>5000</td>
-    </tr>
-    <tr>
-        <td>5 box</td>
-        <td>12000</td>
-        <td>17000</td>
-        <td>23000</td>
-    </tr>
-    <tr>
-        <td>11 box</td>
-        <td>24000</td>
-        <td>34000</td>
-        <td>46000</td>
-        <tr>
-        <td>21 box</td>
-        <td>48000</td>
-        <td>68000</td>
-        <td>90000</td>
-    </tr>
-    </tr>
-</table>
+<div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="image/portfolio/tumbler.jpeg" class="img-responsive" alt="" width="50%"> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <p>
+       Cetakan berkualitas di merchandise dan produk promosi di E-print akan menjadi salah satu strategi marketing paling handal untuk bisnis Anda</p>
+       <p>mulai dari <b>Rp </b>49.500pcs</p>
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 @endsection

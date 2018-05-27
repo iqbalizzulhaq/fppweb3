@@ -2,53 +2,49 @@
 
 @section('content')
 
+
 <div class="section-title text-center center">
       <h2>Pin</h2>
       <hr>
+      
+</div>
+<div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="image/portfolio/pin.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <p>
+        Cetakan berkualitas di merchandise dan produk promosi di E-print akan menjadi salah satu strategi marketing paling handal untuk bisnis Anda</p>
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-title text-center center">
+      <h2>Daftar harga</h2>
+      <hr>
+     E-print menghadirkan solusi cetak online pin dengan kualitas terbaik dan harga yang ekonomis
 
     </div>
-
-<table class="table table-bordered table-hover table-light table-striped">
+<table class="table table-bordered table-hover table-light table-striped " margin="20px">
     <tr>
         <td>quantity</td>
         <td>standart</td>
-        <td>premium</td>
-        <td>lux</td>
+        
     </tr>
     <tr>
-        <td>1 box</td>
-        <td>3000</td>
-        <td>4000</td>
-        <td>5000</td>
-    </tr>
+        <td>1-50 pcs</td>
+        <td>Rp. 1.700 /pcs</td>
+        
     <tr>
-        <td>5 box</td>
-        <td>12000</td>
-        <td>17000</td>
-        <td>23000</td>
-    </tr>
-    <tr>
-        <td>11 box</td>
-        <td>24000</td>
-        <td>34000</td>
-        <td>46000</td>
-        <tr>
-        <td>21 box</td>
-        <td>48000</td>
-        <td>68000</td>
-        <td>90000</td>
-    </tr>
+        <td> >50 pcs</td>
+        <td>Rp. 1.500 /pcs</td>
+        
     </tr>
 </table>
+Semakin banyak kuantitas, semakin murah harga</br>
+<a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
 <br>
-<center>
-<h3> FORM PENJUALAN </h3>
 <br>
-<form action="#" method="post">
-<input type="text" placeholder="type kertas" class="col-md-12"> <br> <br>
-<input type="radio" name="gender" value="female"> Single Side<br>
-<input type="radio" name="gender" value="other"> Double Side<br><br>
-</form>
 
-</center>
 @endsection

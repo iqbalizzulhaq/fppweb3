@@ -214,7 +214,7 @@
           <p class="help-block text-danger"></p>
         </div>
         <div id="success"></div>
-        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+        <button type="submit" class="btn btn-default btn-lg"><a href="iqbal.izzulhaq3@gmail.com" >Send Message</a></button>
       </form>
       <div class="social">
         <ul>
