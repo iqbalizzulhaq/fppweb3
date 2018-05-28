@@ -40,7 +40,7 @@
             <li><a href="#" data-filter="*" class="active">All</a></li>
             <li><a href="#" data-filter=".mm">Marketing Material</a></li>
             <li><a href="#" data-filter=".os">Office and Stationery</a></li>
-            <li><a href="#" data-filter=".pg">Promotional Gift</a></li>
+            <li><a href="#" data-filter=".pg">Promotional</a></li>
           </ol>
         </li>
       </ul>
