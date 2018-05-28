@@ -447,3 +447,35 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 20px;
 }
 }
+
+
+.box{
+  width: 40%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 5%;
+  color: white;
+  float: left;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  float: center;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
