@@ -15,6 +15,7 @@
         <li><a href="#about" class="page-scroll">About</a></li>
         <li><a href="#portfolio" class="page-scroll">Katalog</a></li>
         <li><a href="#contact" class="page-scroll">Contact</a></li>
+        <li><a href="mbd" class="page-scroll">MBD</a></li>
         <li><a href="register" class="btn">Sign Up</a></li>
         <li><a href="login" class="btn">Login</a></li>
       </ul>

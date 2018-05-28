@@ -50,7 +50,7 @@
   
 </div>
 
-<a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+
 <div class="section-title text-center center">
       <h2>Daftar Harga</h2>
       <hr>

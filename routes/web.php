@@ -75,8 +75,14 @@ Route::get('/form_pembelian', function () {
 Route::get('/trolly', function () {
     return view('trolly');
 });
+Route::get('/mbd', function () {
+    return view('mbd.mbd');
+});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/tabel_pemesan', 'HomeController@pemesan');
+Route::get('/tabel_transaksi', 'HomeController@transaksi');
+// Route::get('/mbd', 'HomeController@mbd');
 Route::post('/store','HomeController@store')->name('store.trolly');

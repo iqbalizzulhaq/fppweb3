@@ -35,6 +35,14 @@ class HomeController extends Controller
           return view('trolly')->with('success', 'item berhasil ditambahkan');
         }
   
-      }
-    
+    }
+    public function transaksi(){
+        return view('mbd.transaksi');
+    }
+    public function pemesan(){
+        return view('mbd.pemesan');
+    }
+    public function mbd(){
+        return view('mbd.mbd');
+    }
 }
