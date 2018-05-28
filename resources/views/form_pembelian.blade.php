@@ -27,7 +27,7 @@
 <body>
 
   <!-- multistep form -->
-<form id="msform">
+<form action="{{route('store.trolly')}}" method="post" id="msform">
   <!-- progressbar -->
   <ul id="progressbar">
     <li class="active">Item Setup</li>
@@ -41,7 +41,7 @@
     <h3 class="fs-subtitle">This is step 1</h3>
     <input type="text" name="nama_barang" placeholder="Nama Barang" />
     <input type="text" name="jumlah_barang" placeholder="jumlah barang" />
-    <input type="text" name="type_kertas" placeholder="Type Kertas" /><br>
+    <input type="text" name="type_bahan" placeholder="Type Kertas" /><br>
 	<h5>Pilih Desain </h5><br>
 	<input type="file" name="desain" placeholder="Desain (optional)" />
 	
@@ -62,7 +62,7 @@
   <fieldset>
     <h2 class="fs-title">Pembayaran</h2>
     <h3 class="fs-subtitle">lakukan pembayaran</h3>
-	<select class="select">
+	<select class="select" name="bank">
 		<option>pilih jenis pembayaran</option>
 		<option value="BNI">BNI</option>
 		<option value="BRI">BRI</option>
@@ -79,7 +79,7 @@
     
 
     
-    <a href="trolly" class="btn btn-default">Your Trolly</a>
+    <a href="trolly" class="btn btn-default">Submit</a>
     
     
   </fieldset>
