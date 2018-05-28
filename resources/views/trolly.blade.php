@@ -13,7 +13,7 @@
         <th>nama barang</th>
         <th>jumlah barang</th>
         <th>tipe bahan</th>
-        <th>nama pembeli</th>
+        <th>total pembelian</th>
         <th>Nomor Telephon</th>
         <th>Alamat</th>
     </thead>

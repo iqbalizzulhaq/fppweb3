@@ -79,3 +79,4 @@ Route::get('/trolly', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/store','HomeController@store')->name('store.trolly');
