@@ -26,7 +26,8 @@
      E-print menghadirkan solusi cetak online pin dengan kualitas terbaik dan harga yang ekonomis
 
     </div>
-<table class="table table-bordered table-hover table-light table-striped " margin="20px">
+<div class="col-md-12">
+<table class="table table-bordered table-hover table-light table-striped ">
     <tr>
         <td>quantity</td>
         <td>standart</td>
@@ -42,6 +43,8 @@
         
     </tr>
 </table>
+</div>
+
 Semakin banyak kuantitas, semakin murah harga</br>
 <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
 <br>

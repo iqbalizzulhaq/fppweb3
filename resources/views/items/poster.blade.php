@@ -2,38 +2,7 @@
 
 @section('content')
 
-<style type="text/css">
-.box{
-  width: 40%;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
-  text-align: center;
-  margin: 20px;
-  margin-top: 5%;
-  color: white;
-  float: left;
-  font-family: 'Century Gothic',sans-serif;
-}
-.box-img{
-  border-radius: 100%;
-  width: 200px;
-  height: 200px;
-  float: center;
-}
-.box h1{
-  font-size: 40px;
-  letter-spacing: 4px;
-  font-weight: 100;
-}
-.box h5{
-  font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: 100;
-}
-.box p{
-  text-align: justify;
-}
-</style>
+
 
 <div class="section-title text-center center">
       <h2>Poster</h2>
@@ -52,13 +21,13 @@
 
 
 <div class="box">
-  <img src="image/portfolio/calender1.jpeg" alt="" class="box-img">
+  <img src="image/portfolio/poster2.jpg" alt="" class="box-img">
   <h1>Art paper</h1>
   
 </div>
 
 <div class="box">
-  <img src="image/portfolio/calender1.jpeg" alt="" class="box-img">
+  <img src="image/portfolio/poster3.jpg" alt="" class="box-img">
   <h1>Art Carton</h1>
   
 </div>
