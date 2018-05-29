@@ -88,12 +88,10 @@ Route::get('/mbd', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/tabel_pemesan', 'HomeController@pemesan');
-Route::get('/tabel_transaksi', 'HomeController@transaksi');
-// Route::get('/mbd', 'HomeController@mbd');
-Route::post('/store','HomeController@store')->name('store.trolly');
-Auth::routes();
 
+Route::post('/store','MainController@store')->name('store.trolly');
+Route::get('/trolly', 'MainController@show')->name('show.trolly');
+Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
