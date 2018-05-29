@@ -11,10 +11,8 @@
                     <form class="form-horizontal" method="POST" action="daftar">
                         {{ csrf_field() }}
 
-                        @if (session('alert'))
-                            <div class="alert alert-success">
-                                {{ session('alert') }}
-                            </div>
+                        @if(Session::has('message'))
+                            <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
                         @endif
 
                         <div class="form-group">

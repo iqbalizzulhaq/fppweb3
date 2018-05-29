@@ -20,9 +20,11 @@ Route::post('/daftar', 'MemberController@daftar');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/login','HomeController@login');
+
 Route::get('/register', function(){
     return view('auth.register');
 });
+
 Route::get('/pembelian', function () {
     return view('layouts.pembelian');
 });
