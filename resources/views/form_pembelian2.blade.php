@@ -49,7 +49,7 @@
   
   <fieldset>
     <h2 class="fs-title">Personal Details</h2>
-    <h3 class="fs-subtitle">Isi data diri anda</h3>
+    <h3 class="fs-subtitle">Isi data diri anda!</h3>
     <input type="text" name="fname" placeholder="First Name" />
     <input type="text" name="lname" placeholder="Last Name" />
     <input type="text" name="phone" placeholder="Phone" />
