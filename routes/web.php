@@ -72,6 +72,9 @@ Route::get('/form_pembelian', function () {
     return view('form_pembelian');
 });
 
+Route::get('/form_pembelian2', function () {
+    return view('form_pembelian2');
+});
 Route::get('/trolly', function () {
     return view('trolly');
 });

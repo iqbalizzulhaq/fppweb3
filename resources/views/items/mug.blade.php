@@ -12,9 +12,9 @@
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
           <p>
-       Cetakan berkualitas di merchandise dan produk promosi di Prinzio akan menjadi salah satu strategi marketing paling handal untuk bisnis Anda </p>
+       Cetakan berkualitas di merchandise dan produk promosi di E-print akan menjadi salah satu strategi marketing paling handal untuk bisnis Anda </p>
        <p>mulai dari <b>Rp 18.125</b> /pcs</p>
-          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+          <a href="form_pembelian2" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
       </div>
     </div>
   </div>
