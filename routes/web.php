@@ -15,10 +15,14 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::post('/daftar', 'MemberController@daftar');
+
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/login','HomeController@login');
-
+Route::get('/register', function(){
+    return view('auth.register');
+});
 Route::get('/pembelian', function () {
     return view('layouts.pembelian');
 });
@@ -86,3 +90,10 @@ Route::get('/tabel_pemesan', 'HomeController@pemesan');
 Route::get('/tabel_transaksi', 'HomeController@transaksi');
 // Route::get('/mbd', 'HomeController@mbd');
 Route::post('/store','HomeController@store')->name('store.trolly');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
