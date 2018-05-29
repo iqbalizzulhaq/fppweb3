@@ -7,6 +7,8 @@
 				<div class="panel-heading">Dashboard User</div>
 				
 				<div class="panel-body">
+					{{ Auth::user()->nama }}<br>
+					{{ Auth::user()->id }}<br>
 					Anda Login sebagai user!
 				</div>
 			</div>
