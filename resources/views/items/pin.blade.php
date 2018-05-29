@@ -14,7 +14,7 @@
         <div class="about-text">
           <p>
         Cetakan berkualitas di merchandise dan produk promosi di E-print akan menjadi salah satu strategi marketing paling handal untuk bisnis Anda</p>
-          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+          <a href="form_pembelian2" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@
 </div>
 
 Semakin banyak kuantitas, semakin murah harga</br>
-<a href="#portfolio" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
+<a href="form_pembelian2" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> </div>
 <br>
 <br>
 
