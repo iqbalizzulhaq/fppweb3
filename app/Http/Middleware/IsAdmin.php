@@ -15,7 +15,7 @@ class IsAdmin
      */
     public function handle($request, Closure $next)
     {
-        if(auth()->check() && $request->members()->status == "Admin"){
+        if(auth()->check() && $request->user()->status == "Admin"){
             return $next($request);
         }
         return redirect()->guest('/');

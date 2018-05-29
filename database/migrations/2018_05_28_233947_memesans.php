@@ -14,10 +14,10 @@ class Memesans extends Migration
     public function up()
     {
         Schema::create('memesans', function (Blueprint $table) {
-            $table->string('username',16);
-            $table->unsignedInteger('id');
-            $table->foreign('username')->references('username')->on('members');
-            $table->foreign('id')->references('id')->on('pesans');
+            $table->unsignedInteger('id_user');
+            $table->unsignedInteger('id_pesan');
+            $table->foreign('id_user')->references('id')->on('users');
+            $table->foreign('id_pesan')->references('id')->on('pesans');
         });
     }
 

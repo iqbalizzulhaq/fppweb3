@@ -21,6 +21,26 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/login','HomeController@login');
 
+Route::group(['middleware' => 'web'], function(){
+    Route::auth();
+});
+
+Route::group(['middleware' => ['web','auth']], function(){
+    Route::get('/home', 'HomeController@index');
+    Route::get('/', function(){
+        if(Auth::user()->status == "Admin"){
+            return view('admin_home');
+        }
+        else{
+            return view('user_home');
+        }
+    });
+});
+
+Route::get('admin', ['middleware' => ['web','auth','admin'], function(){
+        return view('admin/admin_home');
+}]);
+
 Route::get('/register', function(){
     return view('auth.register');
 });
@@ -92,6 +112,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/store','MainController@store')->name('store.trolly');
 Route::get('/trolly', 'MainController@show')->name('show.trolly');
 Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();

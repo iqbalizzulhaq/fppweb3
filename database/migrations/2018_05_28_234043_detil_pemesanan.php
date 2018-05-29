@@ -17,6 +17,7 @@ class DetilPemesanan extends Migration
             $table->unsignedInteger('id');
             $table->string('nama_bank',50);
             $table->bigInteger('nomor_rek');
+            $table->string('bukti_pembayaran',150);
             $table->foreign('id')->references('id')->on('pesans');
         });
     }

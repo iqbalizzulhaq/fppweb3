@@ -8,8 +8,8 @@
                 <div class="panel-heading">Register</div>
 
                 <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="daftar">
-                        {{ csrf_field() }}
+                    <form class="form-horizontal" method="POST" action="{{ route('register') }}">
+                     {{ csrf_field() }}
 
                         @if (session('alert'))
                             <div class="alert alert-success">
@@ -69,13 +69,11 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+                        <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Confirm Password</label>
 
                             <div class="col-md-6">
-                                <input id="confpassword" type="password" class="form-control" name="confpassword" required>
-                            </div>
-                        </div>
+                                <input type="password" class="form-control" name="password_confirmation">
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
