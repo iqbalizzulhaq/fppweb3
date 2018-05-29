@@ -34,8 +34,8 @@
             <td>{{ $trolly->phone }}</td>
             <td>{{ $trolly->address }}</td>
             <td>
-                <a href="#" class="btn btn-primary">Edit</a>
-                <a href="#" class="btn btn-danger">delete</a>
+                <a href="{{route('edit.trolly',$trolly->id)}}" class="btn btn-primary">Edit</a>
+                <a href="{{route('delete.trolly',$trolly->id)}}" class="btn btn-danger">delete</a>
             </td>
         </tr>
         @endforeach

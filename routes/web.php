@@ -111,6 +111,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/store','MainController@store')->name('store.trolly');
 Route::get('/trolly', 'MainController@show')->name('show.trolly');
+
+Route::get('/edit/{id}','MainController@edit')->name('edit.trolly');
+Route::put('/update','MainController@update')->name('update.trolly');
+Route::get('/delete/{id}','MainController@delete')->name('delete.trolly');
+
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
