@@ -49,6 +49,7 @@
     Laminating Doff, dan lain lain
   
 </div>
+<a href="form_pembelian" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> 
 
 
 <div class="section-title text-center center">
@@ -92,5 +93,5 @@
 </div>
 <br>
 
-<a href="form_pembelian" class="btn btn-default btn-lg page-scroll">Buat sekarang</a> 
+
 @endsection
