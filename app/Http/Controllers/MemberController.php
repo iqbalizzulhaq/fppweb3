@@ -14,13 +14,21 @@ class MemberController extends Controller
 	}
 
     public function daftar(Request $request){
+    	$request->validate([
+		    'nama' => 'max:50',
+		    'username' => 'max:16',
+		    'password' => 'max:16',
+		    'email' => 'max:50',
+		    'alamat' => 'max:150'
+		]);
     	if($request->password == $request->confpassword){
     		$member = new member;
 
-    		$checke = member::where('email', '=', $request->email)->get();
-    		$checku = member::where('username', '=', $request->username)->get();
+    		$checke = member::where('email', '=', $request->email)->first();
+    		$checku = member::where('username', '=', $request->username)->first();
 
-    		if($checku<="0" and $checke<="0"){
+
+    		if(!$checku and !$checke){
     		$member->nama=$request->nama;
     		$member->username=$request->username;
     		$member->alamat=$request->alamat;
